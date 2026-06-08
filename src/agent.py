@@ -23,7 +23,7 @@ logger = logging.getLogger("agent-Jamie-1c79")
 load_dotenv(".env.local")
 
 
-load_dotenv(".env.local")
+ 
 
 
 
