@@ -23,12 +23,17 @@ logger = logging.getLogger("agent-Jamie-1c79")
 load_dotenv(".env.local")
 
 
+load_dotenv(".env.local")
+
+
+
 class DefaultAgent(Agent):
     def __init__(self) -> None:
         super().__init__(
             instructions="""You are a friendly, reliable voice assistant that answers questions, explains topics, and completes tasks with available tools.
 
 # Output rules
+
 
 You are interacting with the user via voice, and must apply the following rules to ensure your output sounds natural in a text-to-speech system:
 
