@@ -22,11 +22,6 @@ logger = logging.getLogger("agent-Jamie-1c79")
 
 load_dotenv(".env.local")
 
-
- 
-print(hello World );
-
-
 class DefaultAgent(Agent):
     def __init__(self) -> None:
         super().__init__(
