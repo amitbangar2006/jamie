@@ -1,0 +1,12 @@
+
+## API KEY , URL , SECRETE KEY 
+
+LIVEKIT_API_KEY=APIFoVgDzxjZ2B2
+LIVEKIT_API_SECRET=APIFoVgDzxjZ2B2
+LIVEKIT_URL=wss://voice-agent-wwi4upzx.livekit.cloud
+
+
+
+## Run command for the project 
+
+cd "c:\Users\ACER\OneDrive\Desktop\Voice Agent\Jamie-1c79"; $env:Path = "C:\Users\ACER\.local\bin;$env:Path"; uv run python src/agent.py console
